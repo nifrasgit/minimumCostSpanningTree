@@ -1,13 +1,14 @@
 
 public class Edge{
-   private int iNode;
-   private int jNode;
-   private double cost;
-  public  Edge(int nd1, int nd2, double cst){
-      
-      cost=cst;
-      iNode=nd1; jNode=nd2; //order may matter...
-    }
+	private int iNode;
+	private int jNode;
+	private double cost;
+	public  Edge(int node1, int node2, double cost)
+	{
+      this.cost=cost;
+      iNode=node1; 
+	  jNode=node2; 
+	}
   
    public int iNode(){
       return iNode;	
