@@ -1,4 +1,3 @@
-
 import java.util.*;  //to use Scanner class
  
 public class MinimumCostSpanningTree{
@@ -127,7 +126,7 @@ public class MinimumCostSpanningTree{
 				System.out.print("\tinf");
 			else 
 				System.out.print("\t"+cost[i][j]);
-		System.out.println("");
+		System.out.println();
     }
   }
   /******************************/
